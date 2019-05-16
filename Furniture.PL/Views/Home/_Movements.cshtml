@@ -1,0 +1,19 @@
+﻿@model IdAndRole
+@{
+    Layout = null;
+}
+@if (Model.Role == "Admin")
+{
+    <a class="link" href="#" value="@Model.Id">Удалить</a>
+        <span>|</span>
+        @Html.ActionLink("Редактировать", "Edit", "Admin", new { Id = Model.Id }, null)
+}
+else if (Model.Role == "User")
+{
+    <a class="crate" href="#" value="@Model.Id">В Корзину</a>
+
+}
+else
+{
+    <span> Просмотр </span>
+}

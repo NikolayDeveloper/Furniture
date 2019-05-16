@@ -1,0 +1,13 @@
+﻿@{
+    Layout = null;
+}
+@model int
+    @if (Model != 0)
+    {
+         @Html.ActionLink("Корзина " + Model, "ContentCrate")
+    }
+    else
+    {
+        <b>Корзина пуста</b>
+    }
+
