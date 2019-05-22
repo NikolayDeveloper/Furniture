@@ -1,0 +1,11 @@
+﻿@model List<FurnitureListViewModel>
+@{
+    ViewBag.Title = "Корзина";
+}
+<h2>Корзина</h2>
+@Html.Partial("~/Views/Home/_StuffList.cshtml",Model)
+
+<div class="text-center">
+    @Html.ActionLink("Приобрести", "Purchase","User")
+</div>
+

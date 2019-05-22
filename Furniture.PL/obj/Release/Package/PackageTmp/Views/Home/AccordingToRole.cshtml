@@ -1,0 +1,14 @@
+﻿@{
+    Layout = null;
+}
+@{ string userRole = ViewBag.role;
+    int idStuff = ViewBag.IdStuff; }
+@if (userRole == "Admin")
+{
+    @Html.ActionLink("Создать", "Create", "Admin", new { IdStuff = idStuff }, null)
+}
+else if (userRole == "User")
+{
+    <div id="Crate"> @Html.Action("Crate", "User")</div>
+}
+@Html.Action("StuffList","Home",new { IdStuff=idStuff,role=userRole })

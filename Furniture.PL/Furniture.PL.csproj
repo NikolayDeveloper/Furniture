@@ -185,6 +185,7 @@
     <Compile Include="Controllers\MVC\AdminController.cs" />
     <Compile Include="Controllers\MVC\HomeController.cs" />
     <Compile Include="Controllers\MVC\UserController.cs" />
+    <Compile Include="DB_Initial\Db_initializer.cs" />
     <Compile Include="Filters\MyAuthorize.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -232,6 +233,7 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <None Include="Properties\PublishProfiles\Furniture.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -296,10 +298,6 @@
     <ProjectReference Include="..\Furniture.DAL\1Furniture.DAL.csproj">
       <Project>{41cf45c9-b650-4a08-9c15-d3796093fc3c}</Project>
       <Name>1Furniture.DAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PreCompiledViews\PreCompiledViews.csproj">
-      <Project>{a0543ea5-1e0e-4972-b99e-13bbb2b462f5}</Project>
-      <Name>PreCompiledViews</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

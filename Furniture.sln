@@ -9,10 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Furniture.DAL", "Furniture
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Furniture.BLL", "Furniture.BLL\Furniture.BLL.csproj", "{4B42C292-864D-4850-973C-459926BC3BCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Furniture.Tests", "Furniture.Tests\Furniture.Tests.csproj", "{FACC4706-BAF2-41D9-8C17-75A1214AE989}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreCompiledViews", "PreCompiledViews\PreCompiledViews.csproj", "{A0543EA5-1E0E-4972-B99E-13BBB2B462F5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,14 +27,6 @@ Global
 		{4B42C292-864D-4850-973C-459926BC3BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B42C292-864D-4850-973C-459926BC3BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B42C292-864D-4850-973C-459926BC3BCE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FACC4706-BAF2-41D9-8C17-75A1214AE989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FACC4706-BAF2-41D9-8C17-75A1214AE989}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FACC4706-BAF2-41D9-8C17-75A1214AE989}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FACC4706-BAF2-41D9-8C17-75A1214AE989}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A0543EA5-1E0E-4972-B99E-13BBB2B462F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0543EA5-1E0E-4972-B99E-13BBB2B462F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0543EA5-1E0E-4972-B99E-13BBB2B462F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A0543EA5-1E0E-4972-B99E-13BBB2B462F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
